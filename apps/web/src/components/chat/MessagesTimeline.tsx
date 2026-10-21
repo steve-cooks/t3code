@@ -117,7 +117,8 @@ import {
   resolveFileDiffPath,
 } from "../../lib/diffRendering";
 import { PREFERRED_HIGHLIGHTER } from "../../lib/syntaxHighlighting";
-import ChatMarkdown, { ChatMarkdownAssetImage } from "../ChatMarkdown";
+import ChatMarkdown from "../ChatMarkdown";
+import { ChatMarkdownAssetImage } from "./ChatMarkdownMedia";
 import { T3Wordmark } from "../T3Wordmark";
 import { ThreadContextChip } from "../ThreadContextChip";
 import {
